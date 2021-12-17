@@ -1,15 +1,60 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <header class="header clearfix">
+        <div class="left">
+            <img src="https://yt3.ggpht.com/ytc/AKedOLQGz8-j0_jX7GiA1PvZrKmH1pSYUC3M9HdcE8o_PA=s900-c-k-c0x00ffffff-no-rj" alt="brand logo">
+        </div>
+            <div class="right">
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">Content</a>
+                <a href="#">Blog</a>
+               </nav>
+        </div>
+       </header>
+       <main>
+           <article class="hero">
+               <div class="article clearfix">
+                <div class="col col1">
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut placeat temporibus, impedit ad tempora facere, sequi cupiditate modi saepe voluptates accusamus obcaecati illo. Unde quos cumque tempore architecto. Quasi, error.</p>
+                </div>
+                <div class="col col2">
+                    <img src="https://culinarynewsworld.com/wp-content/uploads/2020/05/welcome-to-jumboking.jpg" alt="shop">
+                </div>
+               </div>
+               
+            </article >
+            <section class="section clearfix">
+                <div class="row1">
+                    <span><img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/ee/67/69/menu.jpg" alt="menu"></span>
+                    <span><img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/ee/67/69/menu.jpg" alt="jumbo"></span>
+                    <span><img src="https://www.mumbailive.com/images/media/images/images_1554374320607_JumbokingatT2two.jpg?bg=817869&crop=1200%2C673.6842105263157%2C0%2C159.45056681848874&fit=crop&fitToScale=w%2C1368%2C768&fm=webp&h=179.64912280701753&height=1088&w=320&width=1200" alt="shop"></span>
+                </div>
+                <div class="row2">
+                    <span><img src="https://b.zmtcdn.com/data/pictures/chains/9/6505099/d1c9796f10d917393df4c4e9bada283e.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt=""></span>
+                    <span><img src="http://bsmedia.business-standard.com/_media/bs/img/article/2015-04/21/full/1429607171-1043.JPG" alt=""></span>
+                    <span><img src="https://www.yosuccess.com/wp-content/uploads/2015/03/jumboking.jpg" alt=""></span>
+ 
+                </div>
+ 
+            </section>
+            <footer class="footer">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <small class="top"><a href="#top">Back To Top</a></small>
+                
+            </footer>
+           
+       </main>
+    
+</body>
+</html>
